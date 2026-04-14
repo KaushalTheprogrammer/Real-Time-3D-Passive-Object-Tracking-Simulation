@@ -84,6 +84,9 @@ System Architecture / Workflow
 7. Output final 3D trajectory
 
 
+ ![image alt](https://github.com/KaushalTheprogrammer/Real-Time-3D-Passive-Object-Tracking-Simulation/blob/0275be5ffcb800ff7f618807893e6fb01bbe6407/Screenshot%202026-04-14%20213730.png)
+
+
 
 
 
