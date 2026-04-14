@@ -64,4 +64,34 @@ Analyzed impact of sensor geometry (apex angle) on tracking accuracy.
 
 ![image alt](https://github.com/KaushalTheprogrammer/Real-Time-3D-Passive-Object-Tracking-Simulation/blob/1f1698a86eb1329a7d77ffd6104a7a58dfa285f1/Screenshot%202026-04-14%20210952.png)
 
+ Results & Performance  
+
+- Nonlinear refinement significantly reduced geometric error compared to linear triangulation.  
+- Kalman filtering improved trajectory smoothness and temporal consistency.  
+- System performance was evaluated using RMSE, horizontal error, and vertical error metrics.  
+- Tracking accuracy was strongly dependent on sensor geometry (apex angle).  
+
+Overall, the hybrid approach achieved stable and accurate 3D tracking even under noisy conditions.
+
+
+System Architecture / Workflow
+1. Input angular data (Azimuth, Elevation) from two stations  
+2. Convert to Line-of-Sight vectors  
+3. Perform linear triangulation  
+4. Check residual error  
+5. Apply nonlinear refinement (if required)  
+6. Apply smoothing + Kalman filtering  
+7. Output final 3D trajectory
+
+
+
+
+
+5. Applications
+
+- Defense surveillance and tracking systems  
+- Radar-less target detection  
+- Air traffic monitoring  
+- Autonomous defense systems 
+
 
