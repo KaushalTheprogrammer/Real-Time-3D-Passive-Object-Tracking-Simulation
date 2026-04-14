@@ -62,7 +62,7 @@ Horizontal & Vertical Error
 RMSE (Root Mean Square Error)
 Analyzed impact of sensor geometry (apex angle) on tracking accuracy.
 
-![image alt](https://github.com/KaushalTheprogrammer/Real-Time-3D-Passive-Object-Tracking-Simulation/blob/1f1698a86eb1329a7d77ffd6104a7a58dfa285f1/Screenshot%202026-04-14%20210952.png)
+
 
  Results & Performance  
 
